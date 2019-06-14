@@ -1,6 +1,15 @@
 # PDO - Partie 1 : Lire des données
 
-**Exécuter le script colyseum.sql avant de commencer. Tous les résultats devront être afficher dans une page index.php.**
+**Exécuter le script colyseum.sql avant de commencer. Tous les résultats devront être affichés dans une page index.php.**
+
+> **Attention !** Si vous avez un doute sur les requêtes SQL à effectuer, saisissez-les directement dans PHPMyAdmin pour les tester, ça sera plus facile que de les tester directement dans le code PHP !
+
+> **Rappel** :
+> 1. Connexion à la base de données `$bdd = new PDO()...`
+> 2. Rédaction de la requête dans `$request...`
+> 3. Exécution de la request : `$response = $bdd->query()...`
+> 4. Lecture des résultats de la requête : `$results = $response->fetchAll()...`
+> 5. Affichage des résultats (`var_dump()`, `echo`, `print_r`, `foreach`... le plus adapté)
 
 ## Exercice 1
 
