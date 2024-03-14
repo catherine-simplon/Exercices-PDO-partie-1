@@ -55,3 +55,7 @@ Afficher tous les clients comme ceci :
 **Carte de fidélité :** *Oui (Si le client en possède une) ou Non (s'il n'en possède pas)*
 
 **Numéro de carte :** *Numéro de la carte fidélité du client s'il en possède une.*
+
+## Exercice 8
+
+Créer un formulaire qui permet d'ajouter un client, le code pour enregistrer le client dans la base de données pourra se trouver dans un fichier `addClient.php`
